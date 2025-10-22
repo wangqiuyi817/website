@@ -1,0 +1,103 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 卡片样式 */
+.card {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    text-align: center;
+    color: #1a73e8;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* 信息项样式 */
+.info-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-item label {
+    width: 60px;
+    color: #5f6368;
+    font-weight: 500;
+}
+
+.info-item span,
+.info-item input {
+    flex: 1;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+.info-item input {
+    padding: 6px 8px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    outline: none;
+}
+
+.info-item input:focus {
+    border-color: #1a73e8;
+}
+
+/* 按钮样式 */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+#edit-btn {
+    background-color: #1a73e8;
+    color: white;
+}
+
+#edit-btn:hover {
+    background-color: #1765cc;
+}
+
+#save-btn {
+    background-color: #34a853;
+    color: white;
+}
+
+#save-btn:hover {
+    background-color: #2d9748;
+}
+
+/* 隐藏元素样式 */
+.hidden {
+    display: none;
+}
